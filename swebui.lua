@@ -588,16 +588,13 @@ function SwebwareUI:CreateTab(name)
 
             CheckboxTicked.Name = "CheckboxTicked"
             CheckboxTicked.Parent = Toggle
-            CheckboxTicked.BackgroundColor3 = SwebwareUI.Theme.MainColor
+            CheckboxTicked.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             CheckboxTicked.BackgroundTransparency = 1.000
             CheckboxTicked.Position = UDim2.new(0.5, -12, 0.5, -12)
             CheckboxTicked.Size = UDim2.new(0, 24, 0, 24)
             CheckboxTicked.ZIndex = 5
-            CheckboxTicked.Image = "rbxassetid://3570695787"
+            CheckboxTicked.Image = ""
             CheckboxTicked.ImageColor3 = SwebwareUI.Theme.MainColor
-            CheckboxTicked.ScaleType = Enum.ScaleType.Slice
-            CheckboxTicked.SliceCenter = Rect.new(100, 100, 100, 100)
-            CheckboxTicked.SliceScale = 0.050
 
             TickCover.Name = "TickCover"
             TickCover.Parent = Toggle
@@ -1031,16 +1028,13 @@ function SwebwareUI:CreateTab(name)
             
             CheckboxTicked.Name = "CheckboxTicked"
             CheckboxTicked.Parent = Toggle
-            CheckboxTicked.BackgroundColor3 = SwebwareUI.Theme.MainColor
+            CheckboxTicked.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             CheckboxTicked.BackgroundTransparency = 1.000
             CheckboxTicked.Position = UDim2.new(0.5, -12, 0.5, -12)
             CheckboxTicked.Size = UDim2.new(0, 24, 0, 24)
             CheckboxTicked.ZIndex = 10
-            CheckboxTicked.Image = "rbxassetid://3570695787"
+            CheckboxTicked.Image = ""
             CheckboxTicked.ImageColor3 = SwebwareUI.Theme.MainColor
-            CheckboxTicked.ScaleType = Enum.ScaleType.Slice
-            CheckboxTicked.SliceCenter = Rect.new(100, 100, 100, 100)
-            CheckboxTicked.SliceScale = 0.050
 
             TickCover.Name = "TickCover"
             TickCover.Parent = Toggle
